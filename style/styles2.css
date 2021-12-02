@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(0, 153, 255);
+    margin: 0%;
+    padding: 0%;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(39, 39, 39);
+}
+
+.mitad{
+    background-color: white;
+    display: flex;
+    margin: auto;
+}
+
+.boletin{
+    color: white;
+}
+
+.divBoletin{
+    margin-left: 140px;
+    font-size: 13px;
+}
+
+.formEmail{
+    margin: 20px 40px 0px 0px;
+}
+
+.formDiv{
+    padding: 5px;
+}
+.botDiv{
+    padding: 7px 20px 7px 20px;
+    background-color: rgb(221, 72, 26); 
+    color: white;
+    border: none;
+}
+
+.hijo1{
+    margin: 8px 100px 0px 550px;
+  
+}
+
+.hijo{
+   margin-left: 69px;
+   
+   display: flex;
+   flex-direction: column;  
+}
+
+
+.lorem{
+    background-color: rgb(52, 52, 56);
+    color: white;
+    padding: 20px;
+}
+
+.enviar{
+  width:100%; height:100%;
+  padding: 5px 0 5px 0px;
+  color: white;
+  background-color: rgb(221, 72, 26); 
+  text-align: center;
+  border: none;
+}
+
+.formualrio{
+    align-items: center;
+}
+
+.imagen{
+    width: 350px;
+    height: 250px;
+}
+
+.navbar{
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.titulos{
+    display: flex;
+    margin-left: 50px;
+}
+
+.diseño{
+    margin-right: 10px;
+    color: white;
+}
+
+.multimedia{
+    color: rgb(15, 105, 221);
+}
+
+.links{
+    margin-top: 25px;
+    margin-right: 80px;
+}
+
+.link{
+    padding: 7px;
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.footerLast{
+    color: white;
+}
+
+.div1{
+    width:350%;
+    margin-bottom: 15px;
+    background-color: rgb(240, 238, 238);
+    padding: 15px;
+}
+
+

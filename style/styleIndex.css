@@ -1,0 +1,195 @@
+body{
+    background-color: rgb(27, 161, 238);
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    background-color: rgb(54, 54, 54);
+    border-bottom: 100px;
+    border-color: dodgerblue;
+    padding: 10px;
+    margin-bottom: 7px;
+}
+.titulo{
+    margin-top: 18px;
+}
+
+.diseño{
+    margin-left: 100px;
+    margin-top: 15px;
+    color: white;
+}
+
+.multimedia{
+    color: dodgerblue;
+}
+
+.botHeader{  
+    display: flex;
+    Margin-left: auto;
+}
+
+.botonP{
+  margin: 10px 150px 3px  -87px;
+  padding: 30px 0px 30px 0px;
+  text-decoration: none;
+  border: none;
+  background-color:  rgb(54, 54, 54);
+  color: white;
+  font-size: 25px;
+}
+
+.imagen1{
+    width: 100%;
+    height: 380px;
+}
+
+.contenedorImg1{
+    position: relative;
+    text-align: center;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100px;
+}
+
+a:active {
+    color: red;
+  }
+
+ a:visited { color: dodgerblue; }
+
+.centrado2{
+    margin-top: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    width: 80%;
+}
+
+main{
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    padding: 6px 0px 6px 0px;
+    justify-content: space-around;
+}
+
+
+.suscribete{
+    color: white;
+}
+
+
+
+.boton{
+    padding: 4px;
+    margin: 7px;
+    font-size: 20px;
+    background-color: rgb(255, 102, 0);
+    color: white;
+    border: none;
+}
+
+.input-boton{
+    padding-top: 15px;
+}
+
+
+footer{
+    padding: 40px;
+    display:flex ;
+    justify-content: center;
+    color: white;
+}
+
+.iconos{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.iconos2{
+    padding: 30px 100px 50px 100px;
+
+}
+
+@media(max-width:400px){
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    header{
+        display: flex;
+        background-color: rgb(54, 54, 54);
+        width: 950px;
+        border-bottom: 100px;
+        border-color: dodgerblue;
+    }
+
+    .titulo{
+        margin-right: 100px;
+    }
+
+    .contenedorImg1{
+        width: 970px;
+       margin-bottom: 30px;
+    }
+
+    .imagen1{
+        height: 450px;
+    }
+
+    .centrado2{
+        margin-top: 200px;
+    }
+
+   
+   
+}
+
+@media(min-width: 900px){
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    header{
+        display: flex;
+        background-color: rgb(54, 54, 54);
+        width: 1400px;
+        border-bottom: 100px;
+        border-color: dodgerblue;
+    }
+
+    .contenedorImg1{
+       width: 1420px;
+       margin-bottom: 30px;
+    }
+
+    .imagen1{
+        height: 470px;
+    }
+
+    .centrado2{
+        margin-top: 200px;
+    }
+
+    .iconos{
+        width: 1420px;
+    }
+
+}
+
+
+
+
